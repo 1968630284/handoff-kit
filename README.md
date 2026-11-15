@@ -1,6 +1,8 @@
 # handoff-kit · 交接包
 
 [![CI](https://github.com/1968630284/handoff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/1968630284/handoff-kit/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/1968630284/handoff-kit?display_name=tag)](https://github.com/1968630284/handoff-kit/releases/latest)
+[![License](https://img.shields.io/github/license/1968630284/handoff-kit)](LICENSE)
 
 [English](README.en.md) | **简体中文**
 

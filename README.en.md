@@ -5,6 +5,10 @@
 
 [简体中文](README.md) | **English**
 
+[![CI](https://github.com/1968630284/handoff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/1968630284/handoff-kit/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/1968630284/handoff-kit?display_name=tag)](https://github.com/1968630284/handoff-kit/releases/latest)
+[![License](https://img.shields.io/github/license/1968630284/handoff-kit)](LICENSE)
+
 ## What it solves
 
 In multi-session agent work, lost context means the next person starts by asking: where are we? what is next? which files are off-limits? Verbal handoffs rely on memory, written ones go stale.
