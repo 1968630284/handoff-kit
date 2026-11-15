@@ -2,7 +2,8 @@
 # 运行：Invoke-Pester .\tests\Handoff.Tests.ps1
 
 $Script = Join-Path (Split-Path -Parent $PSScriptRoot) 'handoff.ps1'
-$Root = Join-Path $env:TEMP ('handoff_test_' + [guid]::NewGuid().ToString('N').Substring(0, 8))
+# $env:TEMP 在 Linux 上是空的，用跨平台的 GetTempPath
+$Root = Join-Path ([IO.Path]::GetTempPath()) ('handoff_test_' + [guid]::NewGuid().ToString('N').Substring(0, 8))
 $Handoff = Join-Path $Root '.handoff'
 $Utf8 = New-Object Text.UTF8Encoding($false)
 
